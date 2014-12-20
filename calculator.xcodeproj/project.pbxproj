@@ -14,6 +14,10 @@
 		3D8DABD41A45646D004E0810 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DABD31A45646D004E0810 /* Images.xcassets */; };
 		3D8DABD71A45646D004E0810 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8DABD51A45646D004E0810 /* LaunchScreen.xib */; };
 		3D8DABE31A45646D004E0810 /* calculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DABE21A45646D004E0810 /* calculatorTests.m */; };
+		3D8DABED1A4623D1004E0810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8DABEC1A4623D1004E0810 /* UIKit.framework */; };
+		3D8DABEF1A4623D8004E0810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8DABEE1A4623D8004E0810 /* Foundation.framework */; };
+		3D8DABF11A4623F7004E0810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8DABF01A4623F7004E0810 /* CoreGraphics.framework */; };
+		3D8DABF41A462DDB004E0810 /* calculator_model.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DABF31A462DDB004E0810 /* calculator_model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		3D8DABDC1A45646D004E0810 /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8DABE11A45646D004E0810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D8DABE21A45646D004E0810 /* calculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorTests.m; sourceTree = "<group>"; };
+		3D8DABEC1A4623D1004E0810 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D8DABEE1A4623D8004E0810 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D8DABF01A4623F7004E0810 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D8DABF21A462DDB004E0810 /* calculator_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculator_model.h; sourceTree = "<group>"; };
+		3D8DABF31A462DDB004E0810 /* calculator_model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculator_model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8DABF11A4623F7004E0810 /* CoreGraphics.framework in Frameworks */,
+				3D8DABEF1A4623D8004E0810 /* Foundation.framework in Frameworks */,
+				3D8DABED1A4623D1004E0810 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,9 @@
 		3D8DABBA1A45646D004E0810 = {
 			isa = PBXGroup;
 			children = (
+				3D8DABF01A4623F7004E0810 /* CoreGraphics.framework */,
+				3D8DABEE1A4623D8004E0810 /* Foundation.framework */,
+				3D8DABEC1A4623D1004E0810 /* UIKit.framework */,
 				3D8DABC51A45646D004E0810 /* calculator */,
 				3D8DABDF1A45646D004E0810 /* calculatorTests */,
 				3D8DABC41A45646D004E0810 /* Products */,
@@ -86,6 +101,8 @@
 				3D8DABCD1A45646D004E0810 /* ViewController.h */,
 				3D8DABCE1A45646D004E0810 /* ViewController.m */,
 				3D8DABD01A45646D004E0810 /* Main.storyboard */,
+				3D8DABF21A462DDB004E0810 /* calculator_model.h */,
+				3D8DABF31A462DDB004E0810 /* calculator_model.m */,
 				3D8DABD31A45646D004E0810 /* Images.xcassets */,
 				3D8DABD51A45646D004E0810 /* LaunchScreen.xib */,
 				3D8DABC61A45646D004E0810 /* Supporting Files */,
@@ -222,6 +239,7 @@
 				3D8DABCF1A45646D004E0810 /* ViewController.m in Sources */,
 				3D8DABCC1A45646D004E0810 /* AppDelegate.m in Sources */,
 				3D8DABC91A45646D004E0810 /* main.m in Sources */,
+				3D8DABF41A462DDB004E0810 /* calculator_model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
